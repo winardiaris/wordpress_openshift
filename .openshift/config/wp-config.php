@@ -54,7 +54,7 @@ $table_prefix  = 'wp_';
 |
 */
 
-define('FORCE_SSL_ADMIN', true);
+define('FORCE_SSL_ADMIN', false);
 
 /*
 |--------------------------------------------------------------------------
@@ -133,4 +133,3 @@ require_once(ABSPATH . 'wp-settings.php');
 //define url
 define('WP_HOME','http://www.winardiaris.xyz');
 define('WP_SITEURL','http://www.winardiaris.xyz');
-define('FORCE_SSL_ADMIN', false);
